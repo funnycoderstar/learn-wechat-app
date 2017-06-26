@@ -1,17 +1,29 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/index"
+    "pages/logs/logs"
   ],
   "window": {
-    "navigationBarTitleText": "Demo"
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3fadf9",
+    "navigationBarTitleText": "测试微信小程序",
+     "navigationBarTextStyle": "#fff",
+     "backgroundColor": "#eeeeee",
+     "enablePullDownRefresh": true
   },
   "tabBar": {
+    "color": "#666",
+    "selectedColor": "#62b900",
+    "borderStyle": "white",
     "list": [{
       "pagePath": "pages/index/index",
+      "iconPath": "image/wechat.png",
+      "selectedIconPath": "image/wechatHL.png",
       "text": "首页"
     }, {
       "pagePath": "pages/logs/logs",
+      "iconPath": "image/wechat.png",
+      "selectedIconPath": "image/wechatHL.png",
       "text": "日志"
     }]
   },
