@@ -1,0 +1,15 @@
+@import '../step/step.wxss';
+.tabbar-wrap {
+  width: 750rpx;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+.tabMes-list {
+  width: 25%;
+  padding: 20rpx 0;
+  font-size: 28rpx !important;
+}
+

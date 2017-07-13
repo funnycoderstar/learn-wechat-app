@@ -1,18 +1,4 @@
-// App({
-//   onLaunch: function () {
-//     console.log('App Launch')
-//   },
-//   onShow: function () {
-//     console.log('App Show')
-//   },
-//   onHide: function () {
-//     console.log('App Hide')
-//   },
-//   globalData: {
-//     hasLogin: false
-//   }
-// })
-
+require('./data/index.js');
 App({
   onLaunch: function () {
     //调用API从本地缓存中获取数据

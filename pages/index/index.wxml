@@ -7,4 +7,5 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <!--<canvas style="width: 300px; height: 200px;" canvas-id="firstCanvas"></canvas>-->
 </view>

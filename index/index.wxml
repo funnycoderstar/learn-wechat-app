@@ -1,0 +1,15 @@
+<view class="container">
+    <view class="tabbar-wrap">
+      <view class="tabMes-list" wx:for="{{tabMes}}" wx:for-item="item" bindtap="tapName" data-alpha-beta="{{index}}" style="color:{{tabIndex === index ? '#f77138' : 'black'}}; border-bottom:{{flag === index ? '2' : '0'}}px solid #f77138">
+        {{item}}
+      </view>
+    </view>
+    <view class="tabbar-container">
+        <view hidden="{{tabIndex=== 0 ? false : true}}">
+            <import src="../step/step.wxml"/>
+            <template is="step"/>
+        </view>
+        <view hidden="{{tabIndex=== 1 ? false : true}}">二</view>
+        <view hidden="{{tabIndex=== 2 ? false : true}}">三</view>
+    </view>
+</view>
