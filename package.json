@@ -1,0 +1,22 @@
+{
+  "name": "learn-wechat-app",
+  "version": "1.0.0",
+  "description": "微信小程序简单的demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funnycoderstar/learn-wechat-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/funnycoderstar/learn-wechat-app/issues"
+  },
+  "homepage": "https://github.com/funnycoderstar/learn-wechat-app#readme",
+  "devDependencies": {
+    "eslint": "^4.2.0"
+  }
+}
